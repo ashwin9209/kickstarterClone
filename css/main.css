@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	width: 30%;
+}
+
+
+.amount-remaining {
+	color: #fff;
+	background-color: #424242;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.amount-remaining strong {
+	font-size: 20px;
+}
+
+.amount-remaining h3 {
+	font-size: 18px;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #424242;
+	margin-left: 80%;
+}
+
+.donation-meta {
+	margin-top: 10px;
+	border: 2px solid #bbbbbb;
+}
+
+.content {
+	padding: 15px;
+	line-height: 23px;
+	margin-top: 10px;
+	color: #888888;
+}
+
+.content p {
+	width: 90%;
+	text-align: justify;
+}
+
+#fundingdone {
+	background-color: #f25f34;
+	padding-right: 280px;
+	border: 1px solid #bbbbbb;
+	border-right: 0px;
+}
+
+#fundingremain {
+	background-color: #ffffff;
+	padding-left: 123.5px;
+	border: 1px solid #bbbbbb;
+	border-left: 0px;
+}
+
+#time-remaining {
+	color: #f25f34;
+	font-weight: bold;
+}
+
+#currency {
+	width: 12%;
+	padding: 12px;
+	border-right: 0px;
+	margin: 0 0 10px 0;
+	font-size: 30px;
+	background-color: #ffffff;
+	-webkit-appearance: none;
+	font-family: 'Ubuntu', sans-serif;	
+	border-radius: 5px 0 0px 5px;
+	border-color: #bbbbbb;
+}
+
+#donation-amount {
+	width: 35%;
+	padding: 12px;
+	outline: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-left: 0px;
+	font-size: 30px;
+	-webkit-appearance: none;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 0 5px 5px 0;
+	border-color: #bbbbbb;
+}
+
+#give-now-button {
+	color: #ffffff;
+	background-color: #00be1c;
+	padding: 18px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+#why-give {
+	color: #2babda;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.footer-options {
+	color: #777777;
+	border: 0.5px solid #bbbbbb;
+	padding: 25px;
+	margin: 10px;
+	font-weight: bold;
+	background-color: #fafafa;
+	border-radius: 10px;
+}
