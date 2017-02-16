@@ -88,9 +88,10 @@ a {
 	font-size: 30px;
 	background-color: #ffffff;
 	-webkit-appearance: none;
-	font-family: 'Ubuntu', sans-serif;	
+	font-family: Helvetica, sans-serif;	
 	border-radius: 5px 0 0px 5px;
 	border-color: #bbbbbb;
+	color: #888888;
 }
 
 #donation-amount {
@@ -102,9 +103,10 @@ a {
 	border-left: 0px;
 	font-size: 30px;
 	-webkit-appearance: none;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: Helvetica, sans-serif;
 	border-radius: 0 5px 5px 0;
 	border-color: #bbbbbb;
+	color: #888888;
 }
 
 #give-now-button {
