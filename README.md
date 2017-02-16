@@ -1,7 +1,7 @@
-# kickstarterClone
-_[Design]_(http://codepen.io/bephf/full/emzKMJ/)
+# A tiny Kickstarter Clone
+_[Target Design](http://codepen.io/bephf/full/emzKMJ/)_
 
-_[My Implementation]_(http://codepen.io/ashwin9209/full/xgedMv/)
+_[My Implementation](http://codepen.io/ashwin9209/full/xgedMv/)_
 
 
 _Note: This page is not responsive yet_ :(
