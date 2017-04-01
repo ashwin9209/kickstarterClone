@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin: 5% auto;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.1em;
+	font-weight: lighter;
+	width: 30%;
+}
+
+
+.amount-remaining {
+	color: #fff;
+	background-color: #424242;
+	padding: 0.625em;
+	border-radius: 0.625em;
+	text-align: center;
+}
+
+.amount-remaining strong {
+	font-size: 1.25em;
+}
+
+.amount-remaining h3 {
+	font-size: 1.125em;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 0.625em solid transparent;
+	border-right: 0.625em solid transparent;
+	border-top: 0.625em solid #424242;
+	margin-left: 80%;
+}
+
+.donation-meta {
+	margin-top: 10px;
+	border: 2px solid #bbbbbb;
+}
+
+.content {
+	padding: 0.938em;
+	line-height: 1.438em;
+	margin-top: 0.625em;
+	color: #888888;
+}
+
+.content p {
+	width: 90%;
+}
+
+#fundingdone {
+	background-color: #f25f34;
+	padding-right: 280px;
+	border: 1px solid #bbbbbb;
+	border-right: 0px;
+}
+
+#fundingremain {
+	background-color: #ffffff;
+	padding-left: 123.5px;
+	border: 1px solid #bbbbbb;
+	border-left: 0px;
+}
+
+#time-remaining {
+	color: #f25f34;
+	font-weight: bold;
+}
+
+#currency {
+	width: 12%;
+	padding: .4em;
+	border-right: 0px;
+	margin: 0 0 10px 0;
+	font-size: 30px;
+	background-color: #ffffff;
+	-webkit-appearance: none;
+	font-family: Helvetica, sans-serif;	
+	border-radius: 5px 0 0px 5px;
+	border-color: #bbbbbb;
+	color: #888888;
+}
+
+#donation-amount {
+	width: 35%;
+	padding: 12px;
+	outline: none;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	border-left: 0px;
+	font-size: 30px;
+	-webkit-appearance: none;
+	font-family: Helvetica, sans-serif;
+	border-radius: 0 5px 5px 0;
+	border-color: #bbbbbb;
+	color: #888888;
+}
+
+#give-now-button {
+	color: #ffffff;
+	background-color: #00be1c;
+	padding: 18px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+#why-give {
+	color: #2babda;
+}
+
+.footer {
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.footer-options {
+	color: #777777;
+	border: 0.5px solid #bbbbbb;
+	padding: 25px;
+	margin: 10px;
+	font-weight: bold;
+	background-color: #fafafa;
+	border-radius: 10px;
+}

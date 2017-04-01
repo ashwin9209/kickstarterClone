@@ -1,0 +1,68 @@
+/* Variables: */
+
+$white: #fff;
+$off-white-header: #ddd;
+$off-white-body: #666;
+$amount-remaining-bg-color: #424242;
+$progress-bar-color: #f25f34;
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	width: 40%;
+	border: 1px solid black;
+	font-family: 'Ubuntu', sans-serif;
+	color: $off-white-body;
+}
+
+.amount-remaining {
+	padding: 10px;
+	background: $amount-remaining-bg-color;
+	color: $off-white-header;
+	text-align: center;
+}
+
+.amount-remaining strong {
+	color: $white;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 0.625em solid transparent;
+	border-right: 0.625em solid transparent;
+	border-top: 0.625em solid #424242;
+	margin-left: 80%;
+}
+
+#progressbar {
+	height: 20px;
+	border: 1px solid $off-white-header;
+}
+
+#fundingdone {
+	padding-right: 70%;
+	height: 20px;
+	/*border: 1px solid black;*/
+	background: $progress-bar-color;
+}
+
+/* SMALL DEVICES: MOBILE; */
+@media (max-width: 767px) {
+	.container {
+		font-size: 0.9em;
+		width: 90%;
+	}
+}
